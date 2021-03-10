@@ -278,6 +278,7 @@ ul{
     width: 100vh;
 }
 #about::before{
+  height:70%;
     width: 100vh;
 }
 
