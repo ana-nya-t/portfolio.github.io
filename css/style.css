@@ -16,8 +16,7 @@ html{
     align-items: center;
     position: fixed;
     top:0px;
-    width: 100vw;
-    height: 8vw;
+    width: 100%;
     float: right;
     z-index: 999;
    
@@ -45,7 +44,7 @@ html{
   float: left;
 }
 #logo img{
-    height: 80px;
+    height: 50px;
     margin-top: 25px; margin-left: 10px;
     border: .3px solid rgb(129, 127, 127);
   border-radius: 70px;
@@ -68,7 +67,6 @@ ul{
     display: block;
     border-radius: 20px;
     padding: 3px 20px;
-    border: 2px solid rgb(190, 189, 189);
     color: rgb(19, 17, 17);
 }
 /* HOME SECTION- ABOUT */
@@ -262,58 +260,7 @@ ul{
 .footer p{
     font-size: 1.1rem;
 }
-@media only screen and (max-width: 1000px)
-{
-    *{
-        box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    }
-#navbar {
-    width: 100vh;
-    height: 10vh;
-    margin-right: 0vh;
-}
-#about{
-    width: 100vh;
-}
-#about::before{
-  height:70%;
-    width: 100%;
-}
 
-#expertise{
-    width: 100vh;
-    height: 40vh;
-}
-#Project::before{
-    width: 100vh;
-    margin-left: 0px;
-}
-.ptext{
-    color: rgb(92, 147, 230);
-   
-  font-size: 1.6rem;
-  font-family: cursive;
-    display: flex;
-    position: absolute;
-    margin-left: 24vh;
-    margin-top: 30vh;
-}
-#Contact{
-    height: 70vh;
-}
-#Contact::before{
-    width: 100vh;
-    height: 100vh;
-
-}
-.center{
-    width: 100vh;
-}
-
-
-}
 /* UTILITY CLASSES */
 
 .h-secondary{
