@@ -1,0 +1,122 @@
+#navbar ul{
+    /* margin-left: 2px ; */
+    display: flex;
+    width: 0px;
+    /* border: 2px solid black; */
+
+}
+
+#navbar ul li{ 
+    
+    list-style: none;
+    font-size: 18px;
+    padding: 0px;
+    margin:2px;
+    /* float: right; */
+}
+
+#navbar ul li a{
+   
+    color:rgb(26, 24, 24);
+    display: flex;
+    padding: 0px 2px;
+    border-radius: 16px;
+    text-decoration: none;
+    
+   
+}
+
+#logo img{
+    height: 40px;
+    width: 40px;
+}
+#about{
+    height: 600px;
+}
+#about::before{
+    /* width: 100%; */
+    left: 0;
+    height: 600px;
+}
+#about p{
+font-size: small;
+}
+#expertise .box{
+    margin: 8px;
+    width: 32%;
+    height: 200px;
+    /* justify-content: center; */
+}
+#expertise ul li{
+    margin: 6px;
+    /* border: 2px solid red; */
+    font-size: 10px;
+    margin-left: 0px;
+}
+
+
+
+#Project::before{
+    width: 100%;
+    /* margin-left: 10px; */
+    /* zoom: 1; */
+     /* margin-right: 0px; */
+}
+.ptext{
+    color: rgb(77, 0, 128);
+   
+    /* font-size: small; */
+    display: flex;
+    position: absolute;
+     margin-left: 22%;
+    margin-top: 26vh;
+    font-size: 0.8rem;
+    font-family:cursive
+}
+
+
+
+
+#Contact a{
+    justify-content: center;
+    height: 80px;
+    width:100px;
+    border-radius: 100px;
+    background-color: rgb(221, 216, 221);
+    /* text-align: center; */
+    margin:10px;
+    box-shadow:1px 4px 2px 2px grey;
+    /* line-height: 110px; */
+}
+
+#Contact{
+    height: 400px;
+
+}
+#Contact::before{
+    height: 50%;
+}
+
+
+
+.h-secondary{
+    font-size: 0.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif; 
+    text-decoration: underline;
+}
+.h-primary{
+
+    text-align: center;
+    font-size: 1.8 rem;
+     padding: 14px;
+     font-family: 'Bree Serif', serif;
+}
+.center{
+   font-size: 1.4rem;
+    text-align: center;
+    background-color: rgb(191, 194, 193); 
+    color: rgb(80, 48, 48);
+    margin-top: 5px;
+    
+}
